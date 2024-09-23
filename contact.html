@@ -19,10 +19,10 @@
                 <li><a href="contact.html">Contact us</a></li>
             </ul>
         </div>
-        <div class="search-container">
-            <input type="text" placeholder="Enter a destination or keyword">
-            <button>Search</button>
-            <button>Reset</button>
+        <div class="search-container" style="visibility: hidden">
+            <input id="search-bar" type="text" placeholder="Enter a destination or keyword">
+            <button id="search-button"><a href="home.html">Search</a></button>
+            <button id="reset-button">Reset</button>
         </div>
     </nav>
     <section class="section-container">
@@ -37,7 +37,20 @@
                 </ul>
             </div>
         </div>
+        <div class="contact-container">
+            <h1>CONTACT US</h1>
+            <div class="form-container">
+                <label>Name</label>
+                <input id="text" type="text">
+                <label>Email</label>
+                <input id="email" type="email">
+                <label>Message</label>
+                <textarea id="message"></textarea>
+                <input id="submit" type="submit">
+            </div>
+        </div>
 
     </section>
+    <script src="travel_recommendation.js"></script>
 </body>
 </html>
