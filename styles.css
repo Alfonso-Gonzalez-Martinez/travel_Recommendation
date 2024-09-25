@@ -8,10 +8,11 @@ body button{
 body a{
     color: white;
     text-decoration: none;
+    transition: color 0.5s ease;
 }
 body a:hover{
     text-decoration: underline;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(229, 185, 185, 0.651);
 }
 body a:active{
     color: rgba(255, 255, 255, 0.418);
@@ -30,11 +31,12 @@ ul{
 
 .nav-container{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-image: linear-gradient(to right, rgb(30, 39, 49), rgb(99, 156, 173));
-    height: 75px;
+    min-height: 75px;
 }
 .nav-logo{
     display: flex;
@@ -86,6 +88,14 @@ ul{
     padding: 0px 20px;
     color: white;
 }
+.search-container button:hover{
+    background-color: rgba(49, 76, 97, 0.384);
+    transition: background-color 0.5s ease;
+}
+.search-container button:active{
+    background-color: rgba(78, 108, 131, 0.788);
+    transition: none;
+}
 .search-container input{
     width: 200px;
 }
@@ -94,7 +104,7 @@ ul{
 .section-container{
     display: flex;
     flex-direction: row;
-    height: 100%;
+    min-height: 100vh;
 }
 .social-media{
     display: flex;
@@ -115,175 +125,9 @@ ul{
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.404);
     border-radius: 30%;
-
 }
-.home-container{
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    margin-left: 50px;
-    margin-top: 100px;
-    height: auto;
-}
-.home-container h1{
-    color: white;
-    font-size: 4em;
-    font-weight: bold;
-    width: 300px;
-}
-.home-container p{
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    width: 200px;
-    line-height: 2em;
-    margin-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.384);
-    border-radius: 10px;
-    padding: 10px;
-}
-.home-container button{
-    border: none;
-    color: rgb(255, 255, 255);
-    background-color: rgba(201, 199, 199, 0.26);
-    width: 150px;
-    border-radius: 5px;
+.social-media-icons img:hover{
+    box-shadow: 1px 1px 3px white;
+    transition: box-shadow 0.5s ease;
 }
 
-.about-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    margin-left: 50px;
-}
-.about-container h1{
-    color: white;
-    font-size: 4em;
-    font-weight: bold;
-    width: 300px;
-}
-.about-container p{
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    width: 700px;
-    line-height: 2em;
-    margin-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.384);
-    border-radius: 10px;
-    padding: 10px;
-}
-.about-container-cards{
-    display: flex;
-    flex-direction: row;
-    margin-left: 100px;
-}
-.about-container-cards h2{
-    color: white;
-    font-size: 3em;
-    font-weight: bold;
-    width: 300px;
-}
-
-.about-cards{
-    background-color: rgba(0, 0, 0, 0.534);
-    border-radius: 10px;
-    padding: 10px;
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-}
-.cards-text{
-    margin-left: 30px;
-}
-.cards-text h3{
-    font-size: 1em;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-}
-.cards-text p{
-    all: unset;
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    color: rgb(255, 255, 255);
-}
-
-#image{
-    height: 30px;
-    width: 30px;
-}
-.cards-text button{
-    margin: 0;
-    margin-top: 10px;
-    border-radius: 5px;
-    background-color: rgba(35, 69, 109, 0.616);
-    color: white;
-}
-
-
-.contact-container{
-    display: flex;
-    flex-direction: row;
-    margin-left: 200px;
-    align-items: center;}
-.contact-container h1{
-    color: white;
-    font-size: 4em;
-    font-weight: bold;
-    width: 300px;
-}
-.form-container{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.418);
-    height: 400px;
-    width: 600px;
-    border-radius: 10px;
-}
-.form-container label{
-    color: white;
-    padding: 10px;
-}
-.form-container input{
-    border-radius: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid rgba(255, 255, 255, 0.452);
-    height: 25px;
-    margin: 0 15px;
-}
-.form-container textarea{
-    border-radius: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid rgba(255, 255, 255, 0.452);
-    height: 300px;
-    margin: 0 15px;
-}
-#submit{
-    border-radius: 5px;
-    border: none;
-    margin: 10px;
-    background-color: rgb(47, 95, 97);
-    padding: 5px 0px;
-    cursor: pointer;
-}
-
-#search-result{
-    margin-left: auto;
-    margin-right: 50px;
-}
-.recommendation-card{
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    width: 300px;
-    background-color: rgba(0, 0, 0, 0.233);
-    border-radius: 10px;
-    margin: 10px;
-    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.562);
-}
-.recommendation-card h2, p{
-    margin-left: 10px;
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.308);
-}
