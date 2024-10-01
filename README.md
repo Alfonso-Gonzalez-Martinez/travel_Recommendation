@@ -5,7 +5,7 @@ Check the project at:
 
 ## Description
 
-Welcome to the **Beach Explorer** project! This is a dynamic website built using **HTML**, **CSS**, and **JavaScript** that showcases a sleek design with engaging animations and layout. The website features a search bar that fakes an API request where users can search for various terms related to beaches, countries, and temples, making it easy to find relevant results.
+Welcome to the **Travel Agency** project! This is a dynamic website built using **HTML**, **CSS**, and **JavaScript** that showcases a sleek design with engaging animations and layout. The website features a search bar that fakes an API request where users can search for various terms related to beaches, countries, and temples, making it easy to find relevant results.
 
 ## Features
 
