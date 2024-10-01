@@ -1,7 +1,7 @@
 # Project Title: Travel Agency
 
 Check the project at:
-[Travel Agency](https://alfonso-gonzalez-martinez.github.io/travel_Recommendation/contact.html)
+[Travel Agency](https://alfonso-gonzalez-martinez.github.io/travel_Recommendation/index.html)
 
 ## Description
 
