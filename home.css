@@ -9,7 +9,7 @@
 }
 .home-container h1{
     color: white;
-    font-size: 4em;
+    font-size: 48px;
     font-weight: bold;
     width: 300px;
 }
@@ -17,7 +17,7 @@
     color: white;
     text-shadow: 1px 1px 1px black;
     width: 200px;
-    line-height: 2em;
+    line-height: 24px;
     margin-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.384);
     border-radius: 10px;
@@ -49,12 +49,22 @@
 .recommendation-card{
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: auto;
     width: 300px;
     background-color: rgba(0, 0, 0, 0.233);
     border-radius: 10px;
     margin: 10px;
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.562);
+}
+.recommendation-card h2{
+    font-size: 24px !important;
+    display: block !important;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.recommendation-card p{
+    margin-top: 0;
+    font-size: 12px;
 }
 .recommendation-card h2, p{
     margin-left: 10px;

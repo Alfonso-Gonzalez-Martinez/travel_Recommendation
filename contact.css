@@ -2,11 +2,12 @@
 .contact-container{
     display: flex;
     flex-direction: row;
-    margin-left: 200px;
-    align-items: center;}
+    margin-left: 150px;
+    align-items: center;
+}
 .contact-container h1{
     color: white;
-    font-size: 4em;
+    font-size: 48px;
     font-weight: bold;
     width: 300px;
 }
@@ -17,6 +18,7 @@
     height: 400px;
     width: 600px;
     border-radius: 10px;
+    margin-left: 50px;
 }
 .form-container label{
     color: white;
