@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+/dist
+/coverage
+
+# TypeScript compiled files (if you're not using `tsc` to output to /dist, adjust as needed)
+/*.js
+/*.d.ts
+
+# Jest coverage output
+*.lcov
+coverage/
+
+# TypeScript cache (ts-jest cache)
+*.tsbuildinfo
+
+# VSCode settings
+.vscode/
+
+# IDEs and editors
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files (macOS, Linux, Windows)
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
