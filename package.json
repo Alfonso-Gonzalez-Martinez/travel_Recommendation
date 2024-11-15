@@ -4,7 +4,8 @@
   "description": "Check the project at:\r [Travel Agency](https://alfonso-gonzalez-martinez.github.io/travel_Recommendation/index.html)",
   "main": "travel_recommendation.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,10 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "ts-jest": "^29.2.5",
+    "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }
