@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./about.css">
+</head>
+<body>
+    <nav class="nav-container"> 
+        <div class="nav-logo">
+            <a href="index.html"><img src="./assets/logo.png"></a>
+            <p>Travel With Me</p>
+        </div>
+        <div class="nav-bar-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="search-container" style="visibility: hidden">
+            <input id="search-bar" type="text" placeholder="Enter a destination or keyword">
+            <button id="search-button"><a href="home.html">Search</a></button>
+            <button id="reset-button">Reset</button>
+        </div>
+    </nav>
+    <section class="section-container">
+        <div class="social-media">
+            <div class="line"></div>
+            <div class="social-media-icons">
+                <ul>
+                    <li><a href=""><img src="./assets/twitter.png"></a></li>
+                    <li><a href=""><img src="./assets/facebook.png"></a></li>
+                    <li><a href=""><img src="./assets/youtube.png"></a></li>
+                    <li><a href=""><img src="./assets/instagram.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="about-container">
+            <h1>ABOUT US</h1>
+            <p>At Travel With Me, we turn your travel dreams into reality. Specializing in bespoke, once-in-a-lifetime trips, we curate unforgettable experiences across the globe. Whether it's a relaxing beach escape, a thrilling adventure, or a cultural exploration, our mission is to provide personalized journeys that inspire and amaze. With years of expertise and a passion for travel, we are dedicated to crafting the perfect getaway, tailored just for you.</p>
+            <div class="about-container-cards">
+                <h2>Our Team</h2>
+                <div class="about-cards">
+                    <img id="image" src="./assets/user.png">
+                    <div class="cards-text">
+                        <h3>John Doe</h3>
+                        <p>John is reponsible for...</p>
+                        <button>CFO</button>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <img id="image" src="./assets/user.png">
+                    <div class="cards-text">
+                        <h3>Maria Vaughan</h3>
+                        <p>Maria will take you on a trip...</p>
+                        <button>Tech Lead</button>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <img id="image" src="./assets/user.png">
+                    <div class="cards-text">
+                        <h3>Pedro Pastor</h3>
+                        <p>Pedro is the manager of...</p>
+                        <button>Manager</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="travel_recommendation.js"></script>
+
+</body>
+</html>

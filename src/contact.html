@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Recommendation</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="nav-logo">
+            <a href="index.html"><img src="./assets/logo.png"></a>
+            <p>Travel With Me</p>
+        </div>
+        <div class="nav-bar-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="search-container" style="visibility: hidden">
+            <input id="search-bar" type="text" placeholder="Enter a destination or keyword">
+            <button id="search-button"><a href="home.html">Search</a></button>
+            <button id="reset-button">Reset</button>
+        </div>
+    </nav>
+    <section class="section-container">
+        <div class="social-media">
+            <div class="line"></div>
+            <div class="social-media-icons">
+                <ul>
+                    <li><a href=""><img src="./assets/twitter.png"></a></li>
+                    <li><a href=""><img src="./assets/facebook.png"></a></li>
+                    <li><a href=""><img src="./assets/youtube.png"></a></li>
+                    <li><a href=""><img src="./assets/instagram.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact-container">
+            <h1>CONTACT US</h1>
+            <div class="form-container">
+                <label>Name</label>
+                <input id="text" type="text">
+                <label>Email</label>
+                <input id="email" type="email">
+                <label>Message</label>
+                <textarea id="message"></textarea>
+                <input id="submit" type="submit">
+            </div>
+        </div>
+
+    </section>
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
