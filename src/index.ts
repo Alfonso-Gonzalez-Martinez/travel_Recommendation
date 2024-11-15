@@ -124,3 +124,5 @@ const resetButton: HTMLButtonElement | null = document.getElementById("reset-but
 
 searchButton?.addEventListener("click", fetchTravelData);
 resetButton?.addEventListener("click", clearResult)
+
+
