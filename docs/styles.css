@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body button{
+    cursor: pointer;
+}
+body a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+body a:hover{
+    text-decoration: underline;
+    color: rgba(229, 185, 185, 0.651);
+}
+body a:active{
+    color: rgba(255, 255, 255, 0.418);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.section-container{
+    background-image: url(./assets/rotterdam.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(30, 39, 49), rgb(99, 156, 173));
+    min-height: 75px;
+}
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-logo img{
+    height: 60px;
+    padding: 10px;
+}
+.nav-logo p{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+.nav-bar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-bar-container ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar-container li{
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    height: 35px;
+    border-radius: 40px;
+    margin-right: 30px;
+}
+.search-container input, button{
+    height: 25px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.search-container button{
+    background-color: rgba(49, 76, 97, 0.678);
+    border-radius: 10px;
+    padding: 0px 20px;
+    color: white;
+}
+.search-container button:hover{
+    background-color: rgba(49, 76, 97, 0.384);
+    transition: background-color 0.5s ease;
+}
+.search-container button:active{
+    background-color: rgba(78, 108, 131, 0.788);
+    transition: none;
+}
+.search-container input{
+    width: 200px;
+}
+
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+.line{
+    width: 2px;
+    height: 300px;
+    background-color: black;
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.social-media-icons img{
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 30%;
+}
+.social-media-icons img:hover{
+    box-shadow: 1px 1px 3px white;
+    transition: box-shadow 0.5s ease;
+}
+

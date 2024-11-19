@@ -66,7 +66,7 @@ export function fetchTravelData(){
         return;
     }
 
-    fetch("../travel_recommendation_api.json")
+    fetch("./assets/travel_recommendation_api.json")
     .then(response => {
         if(!response.ok){
             throw new Error("Network is not working properly")
